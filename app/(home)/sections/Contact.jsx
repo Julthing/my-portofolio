@@ -31,9 +31,9 @@ const contactLinks = [
 ];
 
 const socialLinks = [
-  { icon: "mdi:github", href: "#", label: "GitHub" },
-  { icon: "mdi:linkedin", href: "#", label: "LinkedIn" },
-  { icon: "mdi:instagram", href: "#", label: "Instagram" },
+  { icon: "mdi:github", href: "https://github.com/Julthing", label: "GitHub" },
+  { icon: "mdi:linkedin", href: "https://www.linkedin.com/in/zuldika-putra-746495246/", label: "LinkedIn" },
+  { icon: "mdi:instagram", href: "https://www.instagram.com/zuldikaptr/", label: "Instagram" },
 ];
 
 export default function Contact() {

@@ -20,9 +20,9 @@ export const metadata = {
   authors: [{ name: "Zuldika Putra" }],
   creator: "Zuldika Putra",
   icons: {
-    icon: "/images/profile/foto_profile.jpeg",
-    shortcut: "/images/profile/foto_profile.jpeg",
-    apple: "/images/profile/foto_profile.jpeg",
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
   openGraph: {
     title: "Portofolio - Zuldika Putra",

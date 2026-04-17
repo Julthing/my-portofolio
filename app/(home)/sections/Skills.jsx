@@ -43,9 +43,9 @@ export default function Skills() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="rounded-2xl bg-bg-paper shadow-card p-8"
+          className="rounded-2xl bg-bg-paper shadow-card p-10"
         >
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
             {skills.map((skill, i) => (
               <motion.div
                 key={skill.name}
@@ -53,14 +53,17 @@ export default function Skills() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.04, duration: 0.3 }}
-                className="group flex flex-col items-center gap-2.5 p-4 rounded-xl hover:bg-bg-neutral border border-transparent hover:border-divider transition-all duration-300 cursor-default"
+                className="group flex flex-col items-center text-center p-4 rounded-xl hover:bg-bg-neutral/50 transition-all duration-300 cursor-default"
               >
-                <Icon
-                  icon={skill.icon}
-                  width={26}
-                  className="opacity-70 group-hover:opacity-100 transition-opacity duration-300"
-                />
-                <span className="text-xs font-medium text-center text-text-secondary group-hover:text-text-primary transition-colors duration-300 leading-tight">
+                {/* Fixed-size icon container for neat alignment */}
+                <div className="w-12 h-12 flex items-center justify-center mb-3 group-hover:-translate-y-1 transition-transform duration-300">
+                  <Icon
+                    icon={skill.icon}
+                    width={32}
+                    className="opacity-80 group-hover:opacity-100 transition-opacity duration-300"
+                  />
+                </div>
+                <span className="text-[13px] font-semibold text-text-secondary group-hover:text-text-primary transition-colors duration-300 tracking-tight">
                   {skill.name}
                 </span>
               </motion.div>
