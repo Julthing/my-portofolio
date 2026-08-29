@@ -87,7 +87,9 @@ export default function About() {
             ))}
 
             <a
-              href="#"
+              href="/CV-ZULDIKA_PUTRA.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-divider text-text-primary font-semibold text-sm hover:border-primary hover:text-primary transition-all w-full justify-center mt-2"
             >
               <Icon icon="solar:download-minimalistic-bold-duotone" width={18} />

@@ -7,7 +7,7 @@ import HeroIllustration from "./HeroIllustration";
 import Link from "next/link";
 
 const roles = [
-  "Frontend Developer",
+  "Web Developer",
   "Software Engineer",
 ];
 
