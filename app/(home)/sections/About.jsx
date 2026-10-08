@@ -42,9 +42,9 @@ export default function About() {
                 highlight: false,
               },
               {
-                icon: "solar:calendar-bold-duotone",
+                icon: "solar:square-academic-cap-bold-duotone",
                 label: "Education",
-                value: "Information Systems & Technology",
+                value: "S1 Information Systems & Technology",
                 highlight: false,
               },
               {
@@ -109,61 +109,80 @@ export default function About() {
               <p>
                 Hello, I&apos;m{" "}
                 <span className="text-text-primary font-semibold">Zuldika Putra</span>,
-                an enthusiastic and detail-oriented software developer hailing from West Sumbawa,
-                West Nusa Tenggara (NTB). I am currently in my final year majoring in Information
-                Systems and Technology at Universitas Muhammadiyah Mataram. My journey in technology
-                is driven by a deep-seated passion for creating impactful web and mobile applications
-                that bridge the gap between complex functionality and seamless user experience.
+                a passionate software developer from West Sumbawa, West Nusa Tenggara (NTB).
+                I hold a Bachelor&apos;s degree (S1) in Information Systems and Technology from
+                Universitas Muhammadiyah Mataram. My journey in tech is driven by a deep passion
+                for building impactful web applications that blend complex functionality with
+                seamless user experiences.
               </p>
 
               <p>
-                I recently completed an enriching internship at{" "}
-                <span className="text-primary font-medium">PT Begawe Inti Media</span> as a Frontend
-                Developer. During this time, I honed my skills in translating design concepts into
-                interactive, responsive, and user-friendly digital interfaces. This professional
-                experience not only solidified my core web development abilities but also gave me
-                hands-on exposure to collaborative, industry-standard workflows.
+                I gained professional experience as a Web Developer Intern at{" "}
+                <span className="text-primary font-medium">PT Begawe Inti Media</span>, where I built
+                responsive and interactive UIs using Vue.js, Laravel, and MySQL for the TekaDesa project.
+                I also served as a{" "}
+                <span className="text-primary font-medium">Teaching Assistant</span> at Universitas
+                Muhammadiyah Mataram for two years, teaching Database Programming, Web Programming,
+                and Computer Networks.
               </p>
 
               <p>
-                Beyond traditional frontend development, I am highly driven by the intersection of
-                web technologies and artificial intelligence. Through my current undergraduate thesis,
-                I am exploring how to integrate machine learning models into web-based systems. This
-                continuous exploration challenges me to build platforms that are not only visually
-                appealing and interactive but also technologically advanced and secure.
+                For my undergraduate thesis, I developed a{" "}
+                <span className="text-text-primary font-semibold">web-based deepfake video detection system</span>{" "}
+                powered by EfficientNet-B0 and deployed it to production. This project combined my web
+                development skills with AI/ML, using React.js, Flask, TensorFlow/Keras, and MTCNN for
+                face detection — solidifying my ability to build technologically advanced platforms.
               </p>
 
               <p>
-                I believe that great software is born from a balance of logical rigor, continuous
-                learning, and creative design. Whether I am debugging a complex system or refining a
-                user interface, I approach every task with focus and dedication. When I am not writing
-                code, I find that stepping away to enjoy a quiet moment with a good book in nature
-                helps me maintain a clear perspective and return to my work with fresh ideas.
+                I believe great software is born from logical rigor, continuous learning, and creative
+                design. Whether debugging a complex system or crafting a user interface, I approach every
+                challenge with focus and dedication. When I&apos;m not writing code, I enjoy stepping away
+                to recharge with a good book in nature.
               </p>
 
               <p>
-                I am always eager to learn emerging technologies, embrace challenging projects, and
-                collaborate with innovative teams. I look forward to bringing my blend of{" "}
-                <span className="text-text-primary font-medium">frontend expertise</span> and{" "}
+                I am eager to learn emerging technologies, tackle challenging projects, and collaborate
+                with innovative teams. I look forward to bringing my blend of{" "}
+                <span className="text-text-primary font-medium">web development expertise</span> and{" "}
                 <span className="text-text-primary font-medium">analytical problem-solving skills</span>{" "}
-                to forward-thinking companies.
+                to forward-thinking companies as a Junior Software Engineer or Web Developer.
               </p>
             </div>
 
-            {/* Internship highlight card */}
-            <div className="mt-8 p-5 rounded-xl bg-primary-alpha border border-primary/20">
-              <div className="flex items-start gap-3">
-                <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center shrink-0">
-                  <Icon icon="solar:case-round-bold-duotone" width={20} className="text-primary" />
+            {/* Experience highlight cards */}
+            <div className="mt-8 space-y-3">
+              <div className="p-5 rounded-xl bg-primary-alpha border border-primary/20">
+                <div className="flex items-start gap-3">
+                  <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center shrink-0">
+                    <Icon icon="solar:case-round-bold-duotone" width={20} className="text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-text-primary mb-0.5">
+                      Web Developer Intern
+                    </p>
+                    <p className="text-sm text-primary">PT Begawe Inti Media · 2025</p>
+                    <p className="text-xs text-text-disabled mt-1">
+                      Vue.js · Laravel · MySQL · Responsive UI · Design-to-code
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-sm font-semibold text-text-primary mb-0.5">
-                    Frontend Developer Intern
-                  </p>
-                  <p className="text-sm text-primary">PT Begawe Inti Media</p>
-                  <p className="text-xs text-text-disabled mt-1">
-                    Responsive UI development · Design-to-code · Industry workflow
-                  </p>
+              </div>
+
+              <div className="p-5 rounded-xl bg-primary-alpha border border-primary/20">
+                <div className="flex items-start gap-3">
+                  <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center shrink-0">
+                    <Icon icon="solar:square-academic-cap-bold-duotone" width={20} className="text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-text-primary mb-0.5">
+                      Teaching Assistant
+                    </p>
+                    <p className="text-sm text-primary">Universitas Muhammadiyah Mataram · 2024–2025</p>
+                    <p className="text-xs text-text-disabled mt-1">
+                      Database Programming · Web Programming · Computer Networks
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

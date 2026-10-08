@@ -6,13 +6,15 @@ export const metadata = {
   metadataBase: new URL("https://zuldikaputra.dev"),
   title: "Portofolio - Zuldika Putra",
   description:
-    "I am a software developer passionate about building modern, responsive, and user-friendly web applications.",
+    "S1 graduate in Information Systems & Technology. Passionate about building modern, responsive web applications with React, Vue.js, and Laravel.",
   keywords: [
     "frontend developer",
     "software developer",
     "web developer",
     "React",
     "Next.js",
+    "Vue.js",
+    "Laravel",
     "Zuldika Putra",
     "portfolio",
     "Indonesia",
@@ -27,7 +29,7 @@ export const metadata = {
   openGraph: {
     title: "Portofolio - Zuldika Putra",
     description:
-      "Software developer passionate about building modern web applications.",
+      "S1 graduate & web developer passionate about building modern, responsive web applications.",
     type: "website",
     locale: "id_ID",
     images: [
@@ -42,7 +44,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Portofolio - Zuldika Putra",
-    description: "Software developer passionate about building modern web applications.",
+    description: "S1 graduate & web developer passionate about building modern, responsive web applications.",
     images: ["/images/profile/foto_profile.jpeg"],
   },
 };

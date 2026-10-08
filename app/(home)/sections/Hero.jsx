@@ -9,6 +9,7 @@ import Link from "next/link";
 const roles = [
   "Web Developer",
   "Software Engineer",
+  "Frontend Developer",
 ];
 
 export default function Hero() {
@@ -93,8 +94,9 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.8 }}
               className="text-text-secondary leading-relaxed max-w-md mb-10">
-              I build clean, modern, and responsive web interfaces with a focus
-              on performance and beautiful user experiences.
+              S1 graduate in Information Systems &amp; Technology. I build clean,
+              modern web apps with React, Vue.js, and Laravel — and I love
+              exploring AI-powered solutions.
             </motion.p>
 
             {/* CTAs */}
